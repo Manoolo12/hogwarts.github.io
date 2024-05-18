@@ -1,0 +1,49 @@
+/* app.component.css */
+.hogwarts {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffc500;
+    font-size: 2em;
+  }
+  
+  .teachers, .students {
+    margin: 20px;
+  }
+  
+  .teachers h2, .students h2 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-style: italic;
+  }
+  
+  .date, .house, .assignment {
+    color: #555;
+  }
+  
+  .house {
+    font-weight: bold;
+  }
+  
+  .assignment {
+    color: #007bff;
+  }
+  
