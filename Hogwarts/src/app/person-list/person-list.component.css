@@ -1,14 +1,17 @@
 .hogwarts {
   font-family: Arial, sans-serif;
+
 }
 
-h1 {
-  text-align: left;
-  color: #be9e4c;
-  font-size: 2.5em;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 5px #333;
+h1{
+  font-family: 'Your Font', sans-serif; /* Replace with your desired font */
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+ 
 }
+
+
 
 .teachers, .students {
   margin: 20px 10px;
@@ -16,8 +19,7 @@ h1 {
 
 .teachers h2, .students h2 {
   font-size: 1.5em;
-  color: #333;
-  text-shadow: 1px 1px 3px #666;
+  color: #444444;
   margin-left: 10px;
 }
 
@@ -43,7 +45,7 @@ h1 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 20px;
-  position: relative; /* Added */
+  position: relative;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -70,32 +72,26 @@ h1 {
 .house{
   font-weight: bold;
   padding: 5px 10px;
-  border-radius: 4px;
+  border-radius: 15px;
   font-size: 12px;
   color: #fff;
-  position: absolute; /* Added */
-  top: 10px; /* Added */
+  position: absolute;
+  top: 10px;
+  right: 10px;
   
 } 
 
 .assignment {
   font-weight: bold;
   padding: 5px 10px;
-  border-radius: 4px;
+  border-radius: 15px;
   font-size: 12px;
   color: #fff;
-  position: absolute; /* Added */
-  top: 10px; /* Added */
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
-.assignment {
-  right: 10px; /* Added */
-}
-
-.house {
-  right: 10px; /* Added */
-  
-}
 
 .Transfiguration {
   background-color: #e74c3c;
